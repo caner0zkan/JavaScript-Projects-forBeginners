@@ -107,3 +107,6 @@ input{
     font-size: 4rem;
 }
 
+.mission:hover{
+    cursor: pointer;
+}
