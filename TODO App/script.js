@@ -7,9 +7,8 @@ todoAdd.addEventListener("click", () => {
   var t = document.createTextNode(inputValue);
   p.appendChild(t);
   p.setAttribute("class" , "mission");
-  p.setAttribute("oclick" , "todoLine(this)");
 
-  var html = `${inputValue} <button onclick="todoDelete(this)" class="buttonDelete"><i class="fas fa-trash trash"></i>`;
+  var html = `<input type="checkbox" id="cb"> ${inputValue} <button onclick="todoDelete(this)" class="buttonDelete"><i class="fas fa-trash trash"></i>`;
   p.innerHTML = html;
 
   if(inputValue == ""){

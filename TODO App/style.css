@@ -27,7 +27,7 @@ p{
     text-align: center;
 }
 
-input{
+#input{
     height: 6rem;
     width: 80rem;
     margin-top: 4rem;
@@ -40,6 +40,12 @@ input{
     border: none;
     border-radius: .5rem;  
     outline: 0;
+}
+
+#cb{
+    width: 2em;
+    height: 2em;
+    
 }
 
 #buttonAdd{
